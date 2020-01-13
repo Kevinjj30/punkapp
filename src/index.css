@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display:flex;
+  width:100vw;
+  height:100%;
 }
-
+.body{
+  display:flex;
+  flex-direction: column;
+align-content: space-around;
+  
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header{
+font-size: 40px;
+align-self: center;
+}
+
+.name-line{
+  color: red;
+}
+
+header{
+  color:red ;
+}
+p{
+  margin-left: 250px;
+  margin-right: 250px;
 }
